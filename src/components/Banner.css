@@ -1,0 +1,15 @@
+
+
+.banner-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.banner-content h5{
+    padding-left: 4rem;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

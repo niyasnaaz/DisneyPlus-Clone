@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 100px;
+}
+h4,h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    border: 2px solid white;
+    height: 135px;
+    padding: 40px;
+    border-radius: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+}
+.col:hover {
+    transform: scale(1.1);
+  }
+  img{
+    transition: transform 0.3s ease-in-out;
+  }
+  img:hover{
+    transform: scale(1.1);
+
+  }
+
+.container #disney {
+    background-image: url(https://cdn2.actitudfem.com/media/files/media/files/disney-plus.gif);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+
+.container #pixar {
+    background-image: url(https://media.giphy.com/media/4N1FZFE5AGO3qrUGkw/giphy.gif);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+
+.container #marvel {
+    background-image: url(https://th.bing.com/th/id/R.c02faf5610752ab14459b8ba60136a56?rik=3XQ%2bd38SR45lIA&riu=http%3a%2f%2f24.media.tumblr.com%2fc02faf5610752ab14459b8ba60136a56%2ftumblr_mjgeuytiGO1rkfq7so1_500.gif&ehk=vyTJwzlmo%2f5E0LqSxNwOIS5fPWlnuE2S2mWUpgUZD7Y%3d&risl=&pid=ImgRaw&r=0);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+
+.container #spiderman {
+    background-image: url(https://1.bp.blogspot.com/-jvAGK8Po_YY/VuHBSe9PltI/AAAAAAAASVM/mRItMuGB1Fc/s1600/giphy-13.gif);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+
+.container #starwars {
+    background-image: url(https://cdn.dribbble.com/users/38834/screenshots/1997973/media/55ea14bd1a02358ba82539fde9bb05f2.gif);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+
+.container #hotstar {
+    background-image: url(https://cdn.dribbble.com/users/1208648/screenshots/4105454/media/042c855c97248c26593e838f1495de69.gif);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+
+.category {
+    margin-top: 50px;
+}
+
+.category #col-1 {
+    background-image: url(./img/hindi.webp);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+
+.category #col-2 {
+    background-image: url(./img/eng.webp);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+
+.category #col-3 {
+    background-image: url(./img/1526682-a-fd4e220ba563.webp);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+
+.category #col-4 {
+    background-image: url(./img/mal.webp);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+
+.category #col-5 {
+    background-image: url(./img/kor.webp);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+
+.category #col-6 {
+    background-image: url(./img/jap.webp);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularChannels #col-1 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/4940/1424940-a-6486777c0aa5);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularChannels #col-2 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/4956/1424956-a-5e7b10f2c22a);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularChannels #col-3 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/4921/1424921-a-209a2f2e2af7);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularChannels #col-4 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/4918/1424918-a-64e6ffba59a6);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularChannels #col-5 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/4942/1424942-a-6e211260a748);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularChannels #col-6 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/5227/1535227-a-93d6f25ed745);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularGenres #col-1 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/5262/1535262-a-fbabfaf1176e);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularGenres #col-2 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/5284/1535284-a-656c6b45a905);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularGenres #col-3 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/5292/1535292-a-5739f9c84b63);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularGenres #col-4 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/5302/1535302-a-e90748391e0d);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularGenres #col-5 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/8791/1568791-a-e50a43088a1a);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularGenres #col-6 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/5279/1535279-a-c92b487cb711);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularSports #col-1 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/6630/1526630-a-9b9ea791cdaf);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularSports #col-2 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/4550/1534550-a-fc4b5ad51967);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularSports #col-3 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/6635/1526635-a-453e30065a30);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularSports #col-4 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/6639/1526639-a-741d71091ea7);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularSports #col-5 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/6643/1526643-a-95b16247c411);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
+.PopularSports #col-6 {
+    background-image: url(https://img10.hotstar.com/image/upload/f_auto,q_90,w_828/sources/r1/cms/prod/744/1620744-a-4ef7d063b5c5);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px 130px;
+}
